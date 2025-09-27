@@ -1,0 +1,7 @@
+services:
+  ruby_introduction_app:
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /app
